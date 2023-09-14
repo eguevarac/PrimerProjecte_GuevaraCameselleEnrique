@@ -16,5 +16,29 @@ namespace PrimerProjecte_GuevaraCameselleEnrique
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void datosMaestrosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void peticiónMóduloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //this.Close();
+            //form2.Show();
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+            
+        }
     }
 }
