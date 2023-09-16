@@ -40,5 +40,10 @@ namespace PrimerProjecte_GuevaraCameselleEnrique
             form2.ShowDialog();
             
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
