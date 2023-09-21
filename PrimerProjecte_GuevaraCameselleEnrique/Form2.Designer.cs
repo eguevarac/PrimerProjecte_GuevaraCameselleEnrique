@@ -30,12 +30,6 @@
         {
             this.DatosGB = new System.Windows.Forms.GroupBox();
             this.ModuloGB = new System.Windows.Forms.GroupBox();
-            this.UFFlowLayout = new System.Windows.Forms.FlowLayoutPanel();
-            this.UF1 = new System.Windows.Forms.CheckBox();
-            this.UF2 = new System.Windows.Forms.CheckBox();
-            this.UF3 = new System.Windows.Forms.CheckBox();
-            this.UF4 = new System.Windows.Forms.CheckBox();
-            this.UF5 = new System.Windows.Forms.CheckBox();
             this.NombreCB = new System.Windows.Forms.ComboBox();
             this.NombreModuloLabel = new System.Windows.Forms.Label();
             this.CursoFuturoGB = new System.Windows.Forms.GroupBox();
@@ -71,19 +65,19 @@
             this.FechaLabelText = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Resumen = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.fecha_pet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EliminarTodosButton = new System.Windows.Forms.Button();
             this.EliminarButton = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.AnyadirTSButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SalirTSButton = new System.Windows.Forms.ToolStripButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.fecha_pet = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Apellidos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.DatosGB.SuspendLayout();
             this.ModuloGB.SuspendLayout();
-            this.UFFlowLayout.SuspendLayout();
             this.CursoFuturoGB.SuspendLayout();
             this.Turno2GB.SuspendLayout();
             this.CursoMatriculadoGB.SuspendLayout();
@@ -91,8 +85,8 @@
             this.DatosPersonales.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.Resumen.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // DatosGB
@@ -105,93 +99,28 @@
             this.DatosGB.Controls.Add(this.groupBox2);
             this.DatosGB.Controls.Add(this.FechaLabelText);
             this.DatosGB.Controls.Add(this.dateTimePicker1);
-            this.DatosGB.Location = new System.Drawing.Point(12, 39);
+            this.DatosGB.Location = new System.Drawing.Point(9, 32);
+            this.DatosGB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DatosGB.Name = "DatosGB";
-            this.DatosGB.Size = new System.Drawing.Size(672, 357);
+            this.DatosGB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DatosGB.Size = new System.Drawing.Size(504, 290);
             this.DatosGB.TabIndex = 0;
             this.DatosGB.TabStop = false;
             this.DatosGB.Text = "Datos";
             // 
             // ModuloGB
             // 
-            this.ModuloGB.Controls.Add(this.UFFlowLayout);
+            this.ModuloGB.Controls.Add(this.checkedListBox1);
             this.ModuloGB.Controls.Add(this.NombreCB);
             this.ModuloGB.Controls.Add(this.NombreModuloLabel);
-            this.ModuloGB.Location = new System.Drawing.Point(336, 67);
+            this.ModuloGB.Location = new System.Drawing.Point(252, 54);
+            this.ModuloGB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ModuloGB.Name = "ModuloGB";
-            this.ModuloGB.Size = new System.Drawing.Size(330, 100);
+            this.ModuloGB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ModuloGB.Size = new System.Drawing.Size(248, 81);
             this.ModuloGB.TabIndex = 2;
             this.ModuloGB.TabStop = false;
             this.ModuloGB.Text = "Módulo";
-            // 
-            // UFFlowLayout
-            // 
-            this.UFFlowLayout.BackColor = System.Drawing.SystemColors.Window;
-            this.UFFlowLayout.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.UFFlowLayout.Controls.Add(this.UF1);
-            this.UFFlowLayout.Controls.Add(this.UF2);
-            this.UFFlowLayout.Controls.Add(this.UF3);
-            this.UFFlowLayout.Controls.Add(this.UF4);
-            this.UFFlowLayout.Controls.Add(this.UF5);
-            this.UFFlowLayout.Location = new System.Drawing.Point(6, 63);
-            this.UFFlowLayout.Name = "UFFlowLayout";
-            this.UFFlowLayout.Size = new System.Drawing.Size(318, 25);
-            this.UFFlowLayout.TabIndex = 2;
-            // 
-            // UF1
-            // 
-            this.UF1.AutoSize = true;
-            this.UF1.Location = new System.Drawing.Point(3, 3);
-            this.UF1.Margin = new System.Windows.Forms.Padding(3, 3, 0, 3);
-            this.UF1.Name = "UF1";
-            this.UF1.Size = new System.Drawing.Size(54, 20);
-            this.UF1.TabIndex = 0;
-            this.UF1.Text = "UF1";
-            this.UF1.UseVisualStyleBackColor = true;
-            // 
-            // UF2
-            // 
-            this.UF2.AutoSize = true;
-            this.UF2.Location = new System.Drawing.Point(57, 3);
-            this.UF2.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.UF2.Name = "UF2";
-            this.UF2.Size = new System.Drawing.Size(54, 20);
-            this.UF2.TabIndex = 0;
-            this.UF2.Text = "UF2";
-            this.UF2.UseVisualStyleBackColor = true;
-            // 
-            // UF3
-            // 
-            this.UF3.AutoSize = true;
-            this.UF3.Location = new System.Drawing.Point(111, 3);
-            this.UF3.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.UF3.Name = "UF3";
-            this.UF3.Size = new System.Drawing.Size(54, 20);
-            this.UF3.TabIndex = 0;
-            this.UF3.Text = "UF3";
-            this.UF3.UseVisualStyleBackColor = true;
-            // 
-            // UF4
-            // 
-            this.UF4.AutoSize = true;
-            this.UF4.Location = new System.Drawing.Point(165, 3);
-            this.UF4.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.UF4.Name = "UF4";
-            this.UF4.Size = new System.Drawing.Size(54, 20);
-            this.UF4.TabIndex = 1;
-            this.UF4.Text = "UF4";
-            this.UF4.UseVisualStyleBackColor = true;
-            // 
-            // UF5
-            // 
-            this.UF5.AutoSize = true;
-            this.UF5.Location = new System.Drawing.Point(219, 3);
-            this.UF5.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
-            this.UF5.Name = "UF5";
-            this.UF5.Size = new System.Drawing.Size(54, 20);
-            this.UF5.TabIndex = 2;
-            this.UF5.Text = "UF5";
-            this.UF5.UseVisualStyleBackColor = true;
             // 
             // NombreCB
             // 
@@ -201,17 +130,19 @@
             "lalala",
             "lololo",
             "lululu"});
-            this.NombreCB.Location = new System.Drawing.Point(94, 22);
+            this.NombreCB.Location = new System.Drawing.Point(70, 18);
+            this.NombreCB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NombreCB.Name = "NombreCB";
-            this.NombreCB.Size = new System.Drawing.Size(216, 24);
+            this.NombreCB.Size = new System.Drawing.Size(163, 21);
             this.NombreCB.TabIndex = 1;
             // 
             // NombreModuloLabel
             // 
             this.NombreModuloLabel.AutoSize = true;
-            this.NombreModuloLabel.Location = new System.Drawing.Point(13, 27);
+            this.NombreModuloLabel.Location = new System.Drawing.Point(10, 22);
+            this.NombreModuloLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NombreModuloLabel.Name = "NombreModuloLabel";
-            this.NombreModuloLabel.Size = new System.Drawing.Size(56, 16);
+            this.NombreModuloLabel.Size = new System.Drawing.Size(44, 13);
             this.NombreModuloLabel.TabIndex = 0;
             this.NombreModuloLabel.Text = "Nombre";
             // 
@@ -224,9 +155,11 @@
             this.CursoFuturoGB.Controls.Add(this.Tutor2Label);
             this.CursoFuturoGB.Controls.Add(this.Tutor2TB);
             this.CursoFuturoGB.Controls.Add(this.Profesor2Label);
-            this.CursoFuturoGB.Location = new System.Drawing.Point(336, 173);
+            this.CursoFuturoGB.Location = new System.Drawing.Point(252, 141);
+            this.CursoFuturoGB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CursoFuturoGB.Name = "CursoFuturoGB";
-            this.CursoFuturoGB.Size = new System.Drawing.Size(330, 178);
+            this.CursoFuturoGB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CursoFuturoGB.Size = new System.Drawing.Size(248, 145);
             this.CursoFuturoGB.TabIndex = 2;
             this.CursoFuturoGB.TabStop = false;
             this.CursoFuturoGB.Text = "Curso al que quieres ir";
@@ -235,9 +168,11 @@
             // 
             this.Turno2GB.Controls.Add(this.Tarde2RB);
             this.Turno2GB.Controls.Add(this.Manyana2RB);
-            this.Turno2GB.Location = new System.Drawing.Point(9, 21);
+            this.Turno2GB.Location = new System.Drawing.Point(7, 17);
+            this.Turno2GB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Turno2GB.Name = "Turno2GB";
-            this.Turno2GB.Size = new System.Drawing.Size(315, 50);
+            this.Turno2GB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Turno2GB.Size = new System.Drawing.Size(236, 41);
             this.Turno2GB.TabIndex = 2;
             this.Turno2GB.TabStop = false;
             this.Turno2GB.Text = "Turno";
@@ -245,9 +180,10 @@
             // Tarde2RB
             // 
             this.Tarde2RB.AutoSize = true;
-            this.Tarde2RB.Location = new System.Drawing.Point(170, 21);
+            this.Tarde2RB.Location = new System.Drawing.Point(128, 17);
+            this.Tarde2RB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tarde2RB.Name = "Tarde2RB";
-            this.Tarde2RB.Size = new System.Drawing.Size(65, 20);
+            this.Tarde2RB.Size = new System.Drawing.Size(53, 17);
             this.Tarde2RB.TabIndex = 0;
             this.Tarde2RB.TabStop = true;
             this.Tarde2RB.Text = "Tarde";
@@ -256,9 +192,10 @@
             // Manyana2RB
             // 
             this.Manyana2RB.AutoSize = true;
-            this.Manyana2RB.Location = new System.Drawing.Point(33, 21);
+            this.Manyana2RB.Location = new System.Drawing.Point(25, 17);
+            this.Manyana2RB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Manyana2RB.Name = "Manyana2RB";
-            this.Manyana2RB.Size = new System.Drawing.Size(77, 20);
+            this.Manyana2RB.Size = new System.Drawing.Size(64, 17);
             this.Manyana2RB.TabIndex = 0;
             this.Manyana2RB.TabStop = true;
             this.Manyana2RB.Text = "Mañana";
@@ -272,17 +209,19 @@
             "lalala",
             "lololo",
             "lululu"});
-            this.Profesor2CB.Location = new System.Drawing.Point(82, 145);
+            this.Profesor2CB.Location = new System.Drawing.Point(62, 118);
+            this.Profesor2CB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Profesor2CB.Name = "Profesor2CB";
-            this.Profesor2CB.Size = new System.Drawing.Size(216, 24);
+            this.Profesor2CB.Size = new System.Drawing.Size(163, 21);
             this.Profesor2CB.TabIndex = 1;
             // 
             // Curso2Label
             // 
             this.Curso2Label.AutoSize = true;
-            this.Curso2Label.Location = new System.Drawing.Point(20, 92);
+            this.Curso2Label.Location = new System.Drawing.Point(15, 75);
+            this.Curso2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Curso2Label.Name = "Curso2Label";
-            this.Curso2Label.Size = new System.Drawing.Size(42, 16);
+            this.Curso2Label.Size = new System.Drawing.Size(34, 13);
             this.Curso2Label.TabIndex = 0;
             this.Curso2Label.Text = "Curso";
             // 
@@ -294,33 +233,37 @@
             "lalala",
             "lololo",
             "lululu"});
-            this.Curso2CB.Location = new System.Drawing.Point(82, 89);
+            this.Curso2CB.Location = new System.Drawing.Point(62, 72);
+            this.Curso2CB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Curso2CB.Name = "Curso2CB";
-            this.Curso2CB.Size = new System.Drawing.Size(216, 24);
+            this.Curso2CB.Size = new System.Drawing.Size(163, 21);
             this.Curso2CB.TabIndex = 1;
             // 
             // Tutor2Label
             // 
             this.Tutor2Label.AutoSize = true;
-            this.Tutor2Label.Location = new System.Drawing.Point(20, 120);
+            this.Tutor2Label.Location = new System.Drawing.Point(15, 98);
+            this.Tutor2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Tutor2Label.Name = "Tutor2Label";
-            this.Tutor2Label.Size = new System.Drawing.Size(38, 16);
+            this.Tutor2Label.Size = new System.Drawing.Size(32, 13);
             this.Tutor2Label.TabIndex = 0;
             this.Tutor2Label.Text = "Tutor";
             // 
             // Tutor2TB
             // 
-            this.Tutor2TB.Location = new System.Drawing.Point(82, 119);
+            this.Tutor2TB.Location = new System.Drawing.Point(62, 97);
+            this.Tutor2TB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Tutor2TB.Name = "Tutor2TB";
-            this.Tutor2TB.Size = new System.Drawing.Size(216, 22);
+            this.Tutor2TB.Size = new System.Drawing.Size(163, 20);
             this.Tutor2TB.TabIndex = 1;
             // 
             // Profesor2Label
             // 
             this.Profesor2Label.AutoSize = true;
-            this.Profesor2Label.Location = new System.Drawing.Point(20, 148);
+            this.Profesor2Label.Location = new System.Drawing.Point(15, 120);
+            this.Profesor2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Profesor2Label.Name = "Profesor2Label";
-            this.Profesor2Label.Size = new System.Drawing.Size(58, 16);
+            this.Profesor2Label.Size = new System.Drawing.Size(46, 13);
             this.Profesor2Label.TabIndex = 0;
             this.Profesor2Label.Text = "Profesor";
             // 
@@ -333,9 +276,11 @@
             this.CursoMatriculadoGB.Controls.Add(this.ProfesorLabel);
             this.CursoMatriculadoGB.Controls.Add(this.TutorLabel);
             this.CursoMatriculadoGB.Controls.Add(this.CursoLabel);
-            this.CursoMatriculadoGB.Location = new System.Drawing.Point(9, 173);
+            this.CursoMatriculadoGB.Location = new System.Drawing.Point(7, 141);
+            this.CursoMatriculadoGB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CursoMatriculadoGB.Name = "CursoMatriculadoGB";
-            this.CursoMatriculadoGB.Size = new System.Drawing.Size(321, 178);
+            this.CursoMatriculadoGB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.CursoMatriculadoGB.Size = new System.Drawing.Size(241, 145);
             this.CursoMatriculadoGB.TabIndex = 2;
             this.CursoMatriculadoGB.TabStop = false;
             this.CursoMatriculadoGB.Text = "Curso en el que estás matriculado";
@@ -344,9 +289,11 @@
             // 
             this.TurnoGB.Controls.Add(this.TardeRB);
             this.TurnoGB.Controls.Add(this.ManyanaRB);
-            this.TurnoGB.Location = new System.Drawing.Point(9, 20);
+            this.TurnoGB.Location = new System.Drawing.Point(7, 16);
+            this.TurnoGB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TurnoGB.Name = "TurnoGB";
-            this.TurnoGB.Size = new System.Drawing.Size(306, 50);
+            this.TurnoGB.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TurnoGB.Size = new System.Drawing.Size(230, 41);
             this.TurnoGB.TabIndex = 2;
             this.TurnoGB.TabStop = false;
             this.TurnoGB.Text = "Turno";
@@ -354,9 +301,10 @@
             // TardeRB
             // 
             this.TardeRB.AutoSize = true;
-            this.TardeRB.Location = new System.Drawing.Point(170, 21);
+            this.TardeRB.Location = new System.Drawing.Point(128, 17);
+            this.TardeRB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TardeRB.Name = "TardeRB";
-            this.TardeRB.Size = new System.Drawing.Size(65, 20);
+            this.TardeRB.Size = new System.Drawing.Size(53, 17);
             this.TardeRB.TabIndex = 0;
             this.TardeRB.TabStop = true;
             this.TardeRB.Text = "Tarde";
@@ -365,9 +313,10 @@
             // ManyanaRB
             // 
             this.ManyanaRB.AutoSize = true;
-            this.ManyanaRB.Location = new System.Drawing.Point(33, 21);
+            this.ManyanaRB.Location = new System.Drawing.Point(25, 17);
+            this.ManyanaRB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ManyanaRB.Name = "ManyanaRB";
-            this.ManyanaRB.Size = new System.Drawing.Size(77, 20);
+            this.ManyanaRB.Size = new System.Drawing.Size(64, 17);
             this.ManyanaRB.TabIndex = 0;
             this.ManyanaRB.TabStop = true;
             this.ManyanaRB.Text = "Mañana";
@@ -381,9 +330,10 @@
             "lalala",
             "lololo",
             "lululu"});
-            this.ProfesorCB.Location = new System.Drawing.Point(68, 145);
+            this.ProfesorCB.Location = new System.Drawing.Point(51, 118);
+            this.ProfesorCB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ProfesorCB.Name = "ProfesorCB";
-            this.ProfesorCB.Size = new System.Drawing.Size(216, 24);
+            this.ProfesorCB.Size = new System.Drawing.Size(163, 21);
             this.ProfesorCB.TabIndex = 1;
             // 
             // CursoCB
@@ -394,42 +344,47 @@
             "lalala",
             "lololo",
             "lululu"});
-            this.CursoCB.Location = new System.Drawing.Point(68, 89);
+            this.CursoCB.Location = new System.Drawing.Point(51, 72);
+            this.CursoCB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CursoCB.Name = "CursoCB";
-            this.CursoCB.Size = new System.Drawing.Size(216, 24);
+            this.CursoCB.Size = new System.Drawing.Size(163, 21);
             this.CursoCB.TabIndex = 1;
             // 
             // TutorTB
             // 
-            this.TutorTB.Location = new System.Drawing.Point(68, 119);
+            this.TutorTB.Location = new System.Drawing.Point(51, 97);
+            this.TutorTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TutorTB.Name = "TutorTB";
-            this.TutorTB.Size = new System.Drawing.Size(216, 22);
+            this.TutorTB.Size = new System.Drawing.Size(163, 20);
             this.TutorTB.TabIndex = 1;
             // 
             // ProfesorLabel
             // 
             this.ProfesorLabel.AutoSize = true;
-            this.ProfesorLabel.Location = new System.Drawing.Point(6, 148);
+            this.ProfesorLabel.Location = new System.Drawing.Point(4, 120);
+            this.ProfesorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ProfesorLabel.Name = "ProfesorLabel";
-            this.ProfesorLabel.Size = new System.Drawing.Size(58, 16);
+            this.ProfesorLabel.Size = new System.Drawing.Size(46, 13);
             this.ProfesorLabel.TabIndex = 0;
             this.ProfesorLabel.Text = "Profesor";
             // 
             // TutorLabel
             // 
             this.TutorLabel.AutoSize = true;
-            this.TutorLabel.Location = new System.Drawing.Point(6, 120);
+            this.TutorLabel.Location = new System.Drawing.Point(4, 98);
+            this.TutorLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.TutorLabel.Name = "TutorLabel";
-            this.TutorLabel.Size = new System.Drawing.Size(38, 16);
+            this.TutorLabel.Size = new System.Drawing.Size(32, 13);
             this.TutorLabel.TabIndex = 0;
             this.TutorLabel.Text = "Tutor";
             // 
             // CursoLabel
             // 
             this.CursoLabel.AutoSize = true;
-            this.CursoLabel.Location = new System.Drawing.Point(6, 92);
+            this.CursoLabel.Location = new System.Drawing.Point(4, 75);
+            this.CursoLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CursoLabel.Name = "CursoLabel";
-            this.CursoLabel.Size = new System.Drawing.Size(42, 16);
+            this.CursoLabel.Size = new System.Drawing.Size(34, 13);
             this.CursoLabel.TabIndex = 0;
             this.CursoLabel.Text = "Curso";
             // 
@@ -439,42 +394,48 @@
             this.DatosPersonales.Controls.Add(this.NombreTB);
             this.DatosPersonales.Controls.Add(this.NombreLabel);
             this.DatosPersonales.Controls.Add(this.ApellidosLabel);
-            this.DatosPersonales.Location = new System.Drawing.Point(9, 67);
+            this.DatosPersonales.Location = new System.Drawing.Point(7, 54);
+            this.DatosPersonales.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DatosPersonales.Name = "DatosPersonales";
-            this.DatosPersonales.Size = new System.Drawing.Size(321, 100);
+            this.DatosPersonales.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DatosPersonales.Size = new System.Drawing.Size(241, 81);
             this.DatosPersonales.TabIndex = 2;
             this.DatosPersonales.TabStop = false;
             this.DatosPersonales.Text = "Datos personales";
             // 
             // ApellidosTB
             // 
-            this.ApellidosTB.Location = new System.Drawing.Point(93, 55);
+            this.ApellidosTB.Location = new System.Drawing.Point(70, 45);
+            this.ApellidosTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ApellidosTB.Name = "ApellidosTB";
-            this.ApellidosTB.Size = new System.Drawing.Size(206, 22);
+            this.ApellidosTB.Size = new System.Drawing.Size(156, 20);
             this.ApellidosTB.TabIndex = 1;
             // 
             // NombreTB
             // 
-            this.NombreTB.Location = new System.Drawing.Point(93, 24);
+            this.NombreTB.Location = new System.Drawing.Point(70, 20);
+            this.NombreTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NombreTB.Name = "NombreTB";
-            this.NombreTB.Size = new System.Drawing.Size(206, 22);
+            this.NombreTB.Size = new System.Drawing.Size(156, 20);
             this.NombreTB.TabIndex = 1;
             // 
             // NombreLabel
             // 
             this.NombreLabel.AutoSize = true;
-            this.NombreLabel.Location = new System.Drawing.Point(6, 27);
+            this.NombreLabel.Location = new System.Drawing.Point(4, 22);
+            this.NombreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NombreLabel.Name = "NombreLabel";
-            this.NombreLabel.Size = new System.Drawing.Size(56, 16);
+            this.NombreLabel.Size = new System.Drawing.Size(44, 13);
             this.NombreLabel.TabIndex = 0;
             this.NombreLabel.Text = "Nombre";
             // 
             // ApellidosLabel
             // 
             this.ApellidosLabel.AutoSize = true;
-            this.ApellidosLabel.Location = new System.Drawing.Point(6, 55);
+            this.ApellidosLabel.Location = new System.Drawing.Point(4, 45);
+            this.ApellidosLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ApellidosLabel.Name = "ApellidosLabel";
-            this.ApellidosLabel.Size = new System.Drawing.Size(64, 16);
+            this.ApellidosLabel.Size = new System.Drawing.Size(49, 13);
             this.ApellidosLabel.TabIndex = 0;
             this.ApellidosLabel.Text = "Apellidos";
             // 
@@ -484,59 +445,67 @@
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(9, 67);
+            this.groupBox2.Location = new System.Drawing.Point(7, 54);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(259, 100);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(194, 81);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos personales";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(118, 55);
+            this.textBox2.Location = new System.Drawing.Point(88, 45);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 22);
+            this.textBox2.Size = new System.Drawing.Size(105, 20);
             this.textBox2.TabIndex = 1;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(118, 24);
+            this.textBox1.Location = new System.Drawing.Point(88, 20);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 22);
+            this.textBox1.Size = new System.Drawing.Size(105, 20);
             this.textBox1.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 27);
+            this.label3.Location = new System.Drawing.Point(4, 22);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 16);
+            this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 0;
             this.label3.Text = "Nombre";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 55);
+            this.label2.Location = new System.Drawing.Point(4, 45);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
+            this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Apellidos";
             // 
             // FechaLabelText
             // 
             this.FechaLabelText.AutoSize = true;
-            this.FechaLabelText.Location = new System.Drawing.Point(6, 26);
+            this.FechaLabelText.Location = new System.Drawing.Point(4, 21);
+            this.FechaLabelText.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.FechaLabelText.Name = "FechaLabelText";
-            this.FechaLabelText.Size = new System.Drawing.Size(114, 16);
+            this.FechaLabelText.Size = new System.Drawing.Size(92, 13);
             this.FechaLabelText.TabIndex = 1;
             this.FechaLabelText.Text = "Fecha de petición";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(141, 23);
+            this.dateTimePicker1.Location = new System.Drawing.Point(106, 19);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(285, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(215, 20);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // Resumen
@@ -545,80 +514,29 @@
             this.Resumen.Controls.Add(this.dataGridView1);
             this.Resumen.Controls.Add(this.EliminarTodosButton);
             this.Resumen.Controls.Add(this.EliminarButton);
-            this.Resumen.Location = new System.Drawing.Point(12, 415);
+            this.Resumen.Location = new System.Drawing.Point(9, 337);
+            this.Resumen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Resumen.Name = "Resumen";
-            this.Resumen.Size = new System.Drawing.Size(672, 175);
+            this.Resumen.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Resumen.Size = new System.Drawing.Size(504, 142);
             this.Resumen.TabIndex = 0;
             this.Resumen.TabStop = false;
             this.Resumen.Text = "Resumen";
             // 
-            // EliminarTodosButton
-            // 
-            this.EliminarTodosButton.Location = new System.Drawing.Point(102, 21);
-            this.EliminarTodosButton.Name = "EliminarTodosButton";
-            this.EliminarTodosButton.Size = new System.Drawing.Size(107, 23);
-            this.EliminarTodosButton.TabIndex = 0;
-            this.EliminarTodosButton.Text = "Eliminar todos";
-            this.EliminarTodosButton.UseVisualStyleBackColor = true;
-            // 
-            // EliminarButton
-            // 
-            this.EliminarButton.Location = new System.Drawing.Point(18, 22);
-            this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(75, 23);
-            this.EliminarButton.TabIndex = 0;
-            this.EliminarButton.Text = "Eliminar";
-            this.EliminarButton.UseVisualStyleBackColor = true;
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.AnyadirTSButton,
-            this.toolStripSeparator1,
-            this.SalirTSButton});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(696, 27);
-            this.toolStrip1.TabIndex = 1;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // AnyadirTSButton
-            // 
-            this.AnyadirTSButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.AnyadirTSButton.Image = global::PrimerProjecte_GuevaraCameselleEnrique.Properties.Resources.agregar;
-            this.AnyadirTSButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.AnyadirTSButton.Name = "AnyadirTSButton";
-            this.AnyadirTSButton.Size = new System.Drawing.Size(29, 24);
-            this.AnyadirTSButton.Text = "toolStripButton1";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
-            // 
-            // SalirTSButton
-            // 
-            this.SalirTSButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.SalirTSButton.Image = global::PrimerProjecte_GuevaraCameselleEnrique.Properties.Resources.salir1;
-            this.SalirTSButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.SalirTSButton.Name = "SalirTSButton";
-            this.SalirTSButton.Size = new System.Drawing.Size(29, 24);
-            this.SalirTSButton.Text = "toolStripButton2";
-            this.SalirTSButton.Click += new System.EventHandler(this.toolStripButton2_Click);
-            // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fecha_pet,
             this.Nombre,
             this.Apellidos});
-            this.dataGridView1.Location = new System.Drawing.Point(17, 56);
+            this.dataGridView1.Location = new System.Drawing.Point(13, 46);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(640, 107);
+            this.dataGridView1.Size = new System.Drawing.Size(480, 87);
             this.dataGridView1.TabIndex = 1;
             // 
             // fecha_pet
@@ -643,23 +561,95 @@
             this.Apellidos.Name = "Apellidos";
             this.Apellidos.Width = 227;
             // 
+            // EliminarTodosButton
+            // 
+            this.EliminarTodosButton.Location = new System.Drawing.Point(76, 17);
+            this.EliminarTodosButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EliminarTodosButton.Name = "EliminarTodosButton";
+            this.EliminarTodosButton.Size = new System.Drawing.Size(80, 19);
+            this.EliminarTodosButton.TabIndex = 0;
+            this.EliminarTodosButton.Text = "Eliminar todos";
+            this.EliminarTodosButton.UseVisualStyleBackColor = true;
+            // 
+            // EliminarButton
+            // 
+            this.EliminarButton.Location = new System.Drawing.Point(14, 18);
+            this.EliminarButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EliminarButton.Name = "EliminarButton";
+            this.EliminarButton.Size = new System.Drawing.Size(56, 19);
+            this.EliminarButton.TabIndex = 0;
+            this.EliminarButton.Text = "Eliminar";
+            this.EliminarButton.UseVisualStyleBackColor = true;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AnyadirTSButton,
+            this.toolStripSeparator1,
+            this.SalirTSButton});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(522, 27);
+            this.toolStrip1.TabIndex = 1;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // AnyadirTSButton
+            // 
+            this.AnyadirTSButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.AnyadirTSButton.Image = global::PrimerProjecte_GuevaraCameselleEnrique.Properties.Resources.agregar;
+            this.AnyadirTSButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.AnyadirTSButton.Name = "AnyadirTSButton";
+            this.AnyadirTSButton.Size = new System.Drawing.Size(24, 24);
+            this.AnyadirTSButton.Text = "toolStripButton1";
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
+            // 
+            // SalirTSButton
+            // 
+            this.SalirTSButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.SalirTSButton.Image = global::PrimerProjecte_GuevaraCameselleEnrique.Properties.Resources.salir1;
+            this.SalirTSButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SalirTSButton.Name = "SalirTSButton";
+            this.SalirTSButton.Size = new System.Drawing.Size(24, 24);
+            this.SalirTSButton.Text = "toolStripButton2";
+            this.SalirTSButton.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.ColumnWidth = 40;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "UF1",
+            "UF2",
+            "UF3",
+            "UF4",
+            "UF5"});
+            this.checkedListBox1.Location = new System.Drawing.Point(11, 51);
+            this.checkedListBox1.MultiColumn = true;
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(228, 19);
+            this.checkedListBox1.TabIndex = 2;
+            // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(696, 613);
+            this.ClientSize = new System.Drawing.Size(522, 498);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.Resumen);
             this.Controls.Add(this.DatosGB);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Petición de módulo";
             this.DatosGB.ResumeLayout(false);
             this.DatosGB.PerformLayout();
             this.ModuloGB.ResumeLayout(false);
             this.ModuloGB.PerformLayout();
-            this.UFFlowLayout.ResumeLayout(false);
-            this.UFFlowLayout.PerformLayout();
             this.CursoFuturoGB.ResumeLayout(false);
             this.CursoFuturoGB.PerformLayout();
             this.Turno2GB.ResumeLayout(false);
@@ -673,9 +663,9 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.Resumen.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -726,15 +716,10 @@
         private System.Windows.Forms.ToolStripButton AnyadirTSButton;
         private System.Windows.Forms.ToolStripButton SalirTSButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.FlowLayoutPanel UFFlowLayout;
-        private System.Windows.Forms.CheckBox UF1;
-        private System.Windows.Forms.CheckBox UF2;
-        private System.Windows.Forms.CheckBox UF3;
-        private System.Windows.Forms.CheckBox UF4;
-        private System.Windows.Forms.CheckBox UF5;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn fecha_pet;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Apellidos;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
